@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-API_BASE_URL = "http://127.0.0.1:8001"  # Change port to 8001 if your FastAPI server runs on 8001
+# Replace the local IP with your live Render URL
+API_BASE_URL = "https://my-chatbot-backend.onrender.com"
 
 st.set_page_config(page_title="AI Chatbot", page_icon="💬", layout="wide")
 
